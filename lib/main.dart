@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:myapp/container_widget.dart';
 import 'package:myapp/latihan_flutter/awal.dart';
 import 'package:myapp/latihan_flutter/latihan_dua.dart';
+import 'package:myapp/listview/list_basic.dart';
+import 'package:myapp/listview/list_biulder.dart';
+import 'package:myapp/listview/list_example.dart';
+import 'package:myapp/listview/list_separated.dart';
 import 'package:myapp/row_coloumn/coloumn_widget.dart';
 import 'package:myapp/row_coloumn/row_widget.dart';
 
@@ -20,7 +24,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           title: Text('belajar flutter'),
         ),
-        body: LatihanDua(),
+        body: ListExample(),
       ),
     );
   }
